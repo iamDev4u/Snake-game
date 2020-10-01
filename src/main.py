@@ -20,8 +20,8 @@ block_size = 10
 
 clock = pygame.time.Clock()
 FPS = 18
-background_image = pygame.image.load("static/snake.png")
-pause_image = pygame.image.load("static/pause.jpg")
+background_image = pygame.image.load("static/snake.png").convert_alpha()
+pause_image = pygame.image.load("static/pause.jpg").convert_alpha()
 
 font = pygame.font.SysFont(None, 35)
 font_large = pygame.font.SysFont(None, 75)
