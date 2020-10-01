@@ -14,7 +14,7 @@ pip3 install -r requirements.txt
 
 *Note:* You must have [installed Python3.7.1](https://www.python.org/downloads/).
 
-How to install pygame. Open a command line and type: `pip3 install pygame`.
+How to install pygame. Open a command line and type: `pip3 install pygame` or `pip install pygame`.
 
 ### Use or Play
 
@@ -24,6 +24,8 @@ Open a command line and run the main Python module:
 cd src
 python main.py
 ```
+or
+you can directly open the `main.py` by clicking on it.
 
 After running the Python file you will see the opening screen, with some basic
 instructions on how to play the game.
